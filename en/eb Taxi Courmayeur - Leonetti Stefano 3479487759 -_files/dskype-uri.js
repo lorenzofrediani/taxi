@@ -675,8 +675,8 @@ var Skype = new function () {
 				}
 			}
 			this.focusLinks.linkImage = this.assetPrefix + "Skypeicon" + this.assetColor.path + this.assetSize + "px.png";
-			this.callLinks.linkImage = this.assetPrefix + "callbutton32px.png";
-			this.videoLinks.linkImage = this.assetPrefix + "callbutton32px.png";
+			this.callLinks.linkImage = this.assetPrefix + "callbutton_32px.png";
+			this.videoLinks.linkImage = this.assetPrefix + "callbutton_32px.png";
 			this.chatLinks.linkImage = this.assetPrefix + "chatbutton" + this.assetColor.path + this.assetSize + "px.png";
 			this.multiChatLinks.linkImage = this.assetPrefix + "chatbutton" + this.assetColor.path + this.assetSize + "px.png";
 			this.dropdownLinks.linkImage = this.assetPrefix + "dropdowncallbutton" + this.assetColor.path + this.assetSize + "px.png";
