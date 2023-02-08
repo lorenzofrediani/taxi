@@ -31,7 +31,8 @@ var Skype = new function () {
 		this.SkypeUriAssetMap = c;
 		this.SkypeUriAssetColorMap = g;
 		this.SkypeUriNameLinks = m;
-		this.assetPrefix = this.httpProtocol + "//www.skypeassets.com/i/scom/images/skype-buttons/";
+		this.assetPrefix =this.httpProtocol + "//taxicourmayeur.it/";
+			/* this.httpProtocol + "//www.skypeassets.com/i/scom/images/skype-buttons/";*/
 		this.assetSizeArray = [10, 12, 14, 16, 24, 32];
 		this.assetSizeDefault = 16;
 		this.assetMarginMinimum = 16;
