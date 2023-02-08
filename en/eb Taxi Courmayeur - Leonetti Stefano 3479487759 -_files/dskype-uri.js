@@ -98,9 +98,9 @@ var Skype = new function () {
 		this.isSafari = false;
 		this.showDropdown = i;
 		this.hideDropdown = d;
-		this.analyzeScript = this.httpProtocol + "//www.skypeassets.com/i/scom/js/" + "skype-analytics.js";
+		this.analyzeScript =""; /* this.httpProtocol + "//www.skypeassets.com/i/scom/js/" + "skype-analytics.js";*/
 		this.includeJavascript = p;
-		this.includeJavascript(this.analyzeScript);
+		/*this.includeJavascript(this.analyzeScript);*/
 		if (navigator.userAgent.indexOf("Windows NT 5.1") !== -1) {
 			this.isWinXP = true;
 			this.detectedPlatform = "Windows XP"
@@ -674,8 +674,8 @@ var Skype = new function () {
 				}
 			}
 			this.focusLinks.linkImage = this.assetPrefix + "Skypeicon" + this.assetColor.path + this.assetSize + "px.png";
-			this.callLinks.linkImage = this.assetPrefix + "callbutton" + this.assetColor.path + this.assetSize + "px.png";
-			this.videoLinks.linkImage = this.assetPrefix + "callbutton" + this.assetColor.path + this.assetSize + "px.png";
+			this.callLinks.linkImage = this.assetPrefix + "callbutton32px.png";
+			this.videoLinks.linkImage = this.assetPrefix + "callbutton32px.png";
 			this.chatLinks.linkImage = this.assetPrefix + "chatbutton" + this.assetColor.path + this.assetSize + "px.png";
 			this.multiChatLinks.linkImage = this.assetPrefix + "chatbutton" + this.assetColor.path + this.assetSize + "px.png";
 			this.dropdownLinks.linkImage = this.assetPrefix + "dropdowncallbutton" + this.assetColor.path + this.assetSize + "px.png";
